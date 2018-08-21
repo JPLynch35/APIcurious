@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+.user-pic {
+  height: 100px;
+  width: 100px;
+}
+
+.user-pic img {
+  height: 100%;
+  width: auto;
+}
