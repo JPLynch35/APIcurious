@@ -1,6 +1,10 @@
 <div class='user-pic'>
   <%= image_tag current_user.profile_pic %>
 </div>
-<h2><%= current_user.name %></h2>
+<h1><%= current_user.name %></h1>
+
+<h4>Number of Starred Repo: <%= @starred_repos_count %></h4>
+<h4>Number Followers: <%= @followers_count %></h4>
+<h4>Number Following: <%= @following_count %></h4>
 
 <%= link_to 'Log Out', logout_path %>
