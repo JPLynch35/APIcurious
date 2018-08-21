@@ -7,4 +7,6 @@
 <h4>Number Followers: <%= @followers_count %></h4>
 <h4>Number Following: <%= @following_count %></h4>
 
+<%= link_to 'Recent Activity', user_recent_activity_path(current_user) %>
+
 <%= link_to 'Log Out', logout_path %>

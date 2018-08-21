@@ -1,0 +1,5 @@
+<h1><%= current_user.name %>'s Recent Activity</h1>
+
+<% @activities.each do |activity| %>
+  <%= activity.commits %>
+<% end %>
