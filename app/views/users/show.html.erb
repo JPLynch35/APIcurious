@@ -1,1 +1,4 @@
-<p><%= image_tag 'current_user.profile_pic' %><%= current_user.name %>!</p>
+<div class='user-pic'>
+  <%= image_tag current_user.profile_pic %>
+</div>
+<h2><%= current_user.name %></h2>
