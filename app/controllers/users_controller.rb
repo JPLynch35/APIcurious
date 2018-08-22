@@ -20,5 +20,10 @@ class UsersController < ApplicationController
     @organizations = organization_response.map do |organization|
       organization[:login]
     end
+
+    repository_response = JSON.parse(conn.get('repos?sort=created&per_page=100').body, symbolize_names: true)
+    @repositories = repository_response.map do |repository|
+      repository[:name]
+    end
   end
 end
