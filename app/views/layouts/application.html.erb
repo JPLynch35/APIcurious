@@ -9,6 +9,13 @@
   </head>
 
   <body>
+  <nav>
+    <% if current_user%>
+      <%= link_to 'Log Out', logout_path %>
+    <% else %>
+      <%= link_to 'Log In with GitHub', 'https://github.com/login/oauth/authorize?client_id=e8c145f231b53cda741d&scope=repo' %>
+    <% end %>
+  </nav>
     <%= yield %>
   </body>
 </html>
