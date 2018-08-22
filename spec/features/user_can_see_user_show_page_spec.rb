@@ -16,14 +16,14 @@ describe 'a logged in user ' do
 
       expect(page).to have_content(user.name)
       expect(page).to have_content("Number of Starred Repo: 0")
-      expect(page).to have_content("Number Followers:")
+      expect(page).to have_content("Followers:")
       expect(page).to have_css(".follower", count: 1)
-      expect(page).to have_content("Number Following:")
+      expect(page).to have_content("Following:")
       expect(page).to have_css(".following", count: 0)
       expect(page).to have_content("Organizations:")
-      expect(page).to have_css(".organization", count: 0)
+      expect(page).to have_css(".organization", count: 1)
       expect(page).to have_content("Repositories:")
-      expect(page).to have_css(".repository", count: 38)
+      expect(page).to have_css(".repository", count: 42)
     end
   end
 end

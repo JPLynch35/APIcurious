@@ -23,4 +23,12 @@
     <li><%= organization %></li>
   </ul>
 <% end %>
+
+<h4>Repositories:</h4>
+<% @repositories.each do |repository| %>
+  <ul class='repository'>
+    <li><%= repository %></li>
+  </ul>
+<% end %>
+
 <%= link_to 'Recent Activity', user_recent_activity_path(current_user) %>
