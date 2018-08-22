@@ -7,7 +7,7 @@ class ApplicationController < ActionController::Base
   end
 
   def conn
-    Faraday.new(url: 'https://api.github.com/user') do |faraday|
+    Faraday.new(url: 'https://api.github.com') do |faraday|
       faraday.headers['Authorization'] = "token #{current_user.token}"
       faraday.adapter Faraday.default_adapter
     end
