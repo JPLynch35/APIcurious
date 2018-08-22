@@ -3,13 +3,13 @@ require 'rails_helper'
 describe GithubUser, type: :model do
   it 'exists' do
     data = {name: 'Dave'}
-    user = GitHubUser.new(data)
+    user = GithubUser.new(data)
 
-    expect(user).to be_a(GitHubUser)
+    expect(user).to be_a(GithubUser)
   end
   it 'has a name attribute' do
-    data = {name: 'Dave'}
-    user = GitHubUser.new(data)
+    data = {login: 'Dave'}
+    user = GithubUser.new(data)
 
     expect(user.name).to eq('Dave')
   end
