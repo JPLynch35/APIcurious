@@ -4,9 +4,21 @@
 <h1><%= current_user.name %></h1>
 
 <h4>Number of Starred Repo: <%= @starred_repos_count %></h4>
-<h4>Number Followers: <%= @followers_count %></h4>
-<h4>Number Following: <%= @following_count %></h4>
+<h4>Followers:</h4>
+<% @followers.each do |follower| %>
+  <ul class='follower'>
+    <li><%= follower %></li>
+  </ul>
+<% end %>
+<h4>Following:</h4>
+<% @followings.each do |following| %>
+  <ul class='following'>
+    <li><%= following %></li>
+  </ul>
+<% end %>
 
+<h4>Organizations:</h4>
+<% @organizations.each do |organization| %>
+  <%= organization.name %>
+<% end %>
 <%= link_to 'Recent Activity', user_recent_activity_path(current_user) %>
-
-<%= link_to 'Log Out', logout_path %>

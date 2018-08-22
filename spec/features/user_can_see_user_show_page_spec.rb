@@ -2,7 +2,7 @@ require 'rails_helper'
 
 describe 'a logged in user ' do
   describe 'visiting the user show page' do
-    it 'can see their profile pic, name, number of starred repos, followers and followings' do
+    it 'can see their profile pic, name, number of starred repos, number of followers, number followings, list of organizations, and list of all repos' do
       user = User.create(
                           provider: 'github',
                           uid: ENV['JP_UID'],
@@ -18,6 +18,8 @@ describe 'a logged in user ' do
       expect(page).to have_content("Number of Starred Repo: 0")
       expect(page).to have_content("Number Followers: 1")
       expect(page).to have_content("Number Following: 0")
+      expect(page).to have_content("Organizations:")
+      expect(page).to have_content("Repositories:/nAPIcurious/nrales_engine")
     end
   end
 end

@@ -5,6 +5,6 @@ Rails.application.routes.draw do
   get '/logout', to: 'sessions#destroy'
 
   resources :users, only: [:show] do
-    get '/recent_activity', to: 'recent_activity#show'
+    get '/recent_activity', to: 'users/recent_activity#show'
   end
 end
