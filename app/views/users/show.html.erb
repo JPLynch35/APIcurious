@@ -19,6 +19,8 @@
 
 <h4>Organizations:</h4>
 <% @organizations.each do |organization| %>
-  <%= organization.name %>
+  <ul class='organization'>
+    <li><%= organization %></li>
+  </ul>
 <% end %>
 <%= link_to 'Recent Activity', user_recent_activity_path(current_user) %>
