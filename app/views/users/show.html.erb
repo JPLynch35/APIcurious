@@ -3,7 +3,7 @@
 </div>
 <h1><%= current_user.name %></h1>
 
-<h4>Number of Starred Repo: <%= @starred_repos_count %></h4>
+<h4>Number of Starred Repo: <%= @profile.num_starred %></h4>
 <h4>Followers:</h4>
 <% @profile.followers.each do |follower| %>
   <ul class='follower'>
@@ -26,9 +26,9 @@
 <% end %>
 
 <h4>Repositories:</h4>
-<% @repositories.each do |repository| %>
+<% @profile.repositories.each do |repository| %>
   <ul class='repository'>
-    <li><%= repository %></li>
+    <li><%= repository.title %></li>
   </ul>
 <% end %>
 
