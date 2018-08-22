@@ -3,15 +3,22 @@ class UsersController < ApplicationController
     render file: 'public/404' unless current_user && current_user.id.to_s == params[:id]
 
     starred_repos_reponse = conn.get('starred')
-    starred_repos = JSON.parse(starred_repos_reponse.body)
+    starred_repos = JSON.parse(starred_repos_reponse.body, symbolize_names: true)
     @starred_repos_count = starred_repos.count
 
-    followers_reponse = conn.get('followers')
-    followers = JSON.parse(followers_reponse.body)
-    @followers_count = followers.count
+    followers_response = JSON.parse(conn.get('followers').body, symbolize_names: true)
+    @followers = followers_response.map do |follower|
+      follower[:login]
+    end
 
-    following_reponse = conn.get('following')
-    following = JSON.parse(following_reponse.body)
-    @following_count = following.count
+    following_reponse = JSON.parse(conn.get('following').body, symbolize_names: true)
+    @followings = following_reponse.map do |following|
+      following[:login]
+    end
+
+    organization_response = JSON.parse(conn.get('orgs').body, symbolize_names: true)
+    @organizations = organization_response.map do |organization|
+      organization[:login]
+    end
   end
 end
