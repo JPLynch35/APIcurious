@@ -5,15 +5,16 @@
 
 <h4>Number of Starred Repo: <%= @starred_repos_count %></h4>
 <h4>Followers:</h4>
-<% @followers.each do |follower| %>
+<% @profile.followers.each do |follower| %>
   <ul class='follower'>
-    <li><%= follower %></li>
+    <li><%= follower.name %></li>
   </ul>
 <% end %>
+
 <h4>Following:</h4>
-<% @followings.each do |following| %>
+<% @profile.following.each do |following| %>
   <ul class='following'>
-    <li><%= following %></li>
+    <li><%= following.name %></li>
   </ul>
 <% end %>
 
