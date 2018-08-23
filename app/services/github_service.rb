@@ -23,6 +23,27 @@ class GithubService
     @repos ||= get_json('/user/repos?sort=created&per_page=100')
   end
 
+  def personal_login
+    @user_response ||= get_json('/user')
+    @user_response[:login]
+  end
+
+  def call_personal_activity
+    @personal_activity ||= get_json("/users/#{personal_login}/events")
+  end
+
+  def personal_activity
+    call_personal_activity.map do |event|
+      if event[:payload][:commits] && event[:actor][:login] == personal_login
+        [event[:repo][:name], event[:created_at],
+        event[:payload][:commits].map do |commit|
+          commit[:message]
+        end
+        ]
+      end
+    end.compact
+  end
+
   private
   
   def conn

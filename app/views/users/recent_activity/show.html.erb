@@ -1,14 +1,14 @@
 <h1><%= current_user.name %>'s Recent Activity</h1>
 
-<% @recent_activity.each do |activity| %>
+<% @actions.activities.each do |activity| %>
   <ul class='activity'>
     <li>
-      <p>Repo: <%= activity[0] %></p>
-      <p>Time: <%= activity[1] %></p>
+      <p>Repo: <%= activity.project %></p>
+      <p>Time: <%= activity.time %></p>
       <p>
         Commits:
         <ul class='commits'>
-          <% activity[2].each do |commit| %>
+          <% activity.commits.each do |commit| %>
             <li><%= commit %></li>
           <% end %>
         </ul>
@@ -16,3 +16,5 @@
     </li>
   </ul>
 <% end %>
+
+<%= link_to 'Back', user_path(current_user) %>

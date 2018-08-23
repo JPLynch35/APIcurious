@@ -2,7 +2,7 @@ require 'rails_helper'
 
 describe 'a logged in user ' do
   describe 'visiting the user show page' do
-    it 'can click on a link to go to their recent activity page' do
+    it 'can click on a link to go to their personal recent activity page' do
       user = User.create(
                           provider: 'github',
                           uid: ENV['JP_UID'],
@@ -14,9 +14,9 @@ describe 'a logged in user ' do
 
       visit user_path(user)
 
-      expect(page).to have_link('Recent Activity')
+      expect(page).to have_link('Personal Recent Activity')
 
-      click_link('Recent Activity')
+      click_link('Personal Recent Activity')
 
       expect(current_path).to eq(user_recent_activity_path(user))
     end
