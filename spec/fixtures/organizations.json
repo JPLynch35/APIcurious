@@ -1,0 +1,16 @@
+[
+  {
+      "login": "test-organization35",
+      "id": 42592263,
+      "node_id": "MDEyOk9yZ2FuaXphdGlvbjQyNTkyMjYz",
+      "url": "https://api.github.com/orgs/test-organization35",
+      "repos_url": "https://api.github.com/orgs/test-organization35/repos",
+      "events_url": "https://api.github.com/orgs/test-organization35/events",
+      "hooks_url": "https://api.github.com/orgs/test-organization35/hooks",
+      "issues_url": "https://api.github.com/orgs/test-organization35/issues",
+      "members_url": "https://api.github.com/orgs/test-organization35/members{/member}",
+      "public_members_url": "https://api.github.com/orgs/test-organization35/public_members{/member}",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/42592263?v=4",
+      "description": "This is a test for an API projcet"
+  }
+]
