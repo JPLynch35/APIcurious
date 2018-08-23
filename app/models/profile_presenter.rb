@@ -21,6 +21,12 @@ class ProfilePresenter
     end
   end
 
+  def organizations
+    @service.call_organizations.map do |organization_data|
+      Organization.new(organization_data)
+    end
+  end
+
   def repositories
     @service.all_repos.map do |repo_data|
       Repository.new(repo_data)

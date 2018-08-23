@@ -4,15 +4,19 @@ class GithubService
   end
 
   def call_starred_repos
-    @starred_repos ||= get_json('/user/starred')
+    @starred_repo_data ||= get_json('/user/starred')
   end
 
   def call_followers
-    @github_user_followers ||= get_json('/user/followers')
+    @github_followers_data ||= get_json('/user/followers')
   end
 
   def call_following
-    @github_user_following ||= get_json('/user/following')
+    @github_following_data ||= get_json('/user/following')
+  end
+
+  def call_organizations
+    @organization_data ||= get_json('/user/orgs')
   end
 
   def all_repos
