@@ -1,0 +1,22 @@
+<h1>Recent Activity For Those You Are Following</h1>
+
+<% @actions.activities.each do |following| %>
+  <% following.each do |activity| %>
+    <ul class='activity'>
+      <li>
+        <p>Repo: <%= activity.project %></p>
+        <p>Time: <%= activity.time %></p>
+        <p>
+          Commits:
+          <ul class='commits'>
+            <% activity.commits.each do |commit| %>
+              <li><%= commit %></li>
+            <% end %>
+          </ul>
+        </p>
+      </li>
+    </ul>
+  <% end %>
+<% end %>
+
+<%= link_to 'Back', user_path(current_user) %>

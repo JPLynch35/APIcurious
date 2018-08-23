@@ -6,5 +6,6 @@ Rails.application.routes.draw do
 
   resources :users, only: [:show] do
     get '/recent_activity', to: 'users/recent_activity#show'
+    get 'following/recent_activity', to: 'users/following/recent_activity#show'
   end
 end

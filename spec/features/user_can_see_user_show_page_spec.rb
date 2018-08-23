@@ -19,7 +19,7 @@ describe 'a logged in user ' do
       expect(page).to have_content("Followers:")
       expect(page).to have_css(".follower", count: 3)
       expect(page).to have_content("Following:")
-      expect(page).to have_css(".following", count: 1)
+      expect(page).to have_css(".following", count: 2)
       expect(page).to have_content("Organizations:")
       expect(page).to have_css(".organization", count: 1)
       expect(page).to have_content("Repositories:")

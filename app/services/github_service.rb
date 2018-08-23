@@ -44,6 +44,27 @@ class GithubService
     end.compact
   end
 
+  def call_following_activity
+    @following_activity ||= call_following.map do |following|
+      following_login = following[:login]
+      get_json("/users/#{following_login}/events")
+    end
+  end
+
+  def following_activity
+    call_following_activity.map do |follower|
+      follower.map do |event|
+        if event[:payload][:commits]
+          [event[:repo][:name], event[:created_at],
+          event[:payload][:commits].map do |commit|
+            commit[:message]
+          end
+          ]
+        end
+      end.compact
+    end
+  end
+
   private
   
   def conn

@@ -46,7 +46,7 @@ describe ProfilePresenter, type: :model do
       profile = ProfilePresenter.new(user.token)
 
       expect(profile.following.first).to be_a(GithubUser)
-      expect(profile.following.count).to eq(1)
+      expect(profile.following.count).to eq(2)
     end
     it 'returns the organization names the github user belongs to' do
       user = User.create(
