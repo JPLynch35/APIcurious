@@ -1,0 +1,78 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/user/orgs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - token <USER_TOKEN>
+      User-Agent:
+      - Faraday v0.15.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Fri, 24 Aug 2018 02:06:18 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4958'
+      X-Ratelimit-Reset:
+      - '1535078518'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      Etag:
+      - W/"45cc778b64f0a2521b767185a5c9584f"
+      X-Oauth-Scopes:
+      - repo, user
+      X-Accepted-Oauth-Scopes:
+      - admin:org, read:org, repo, user, write:org
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Runtime-Rack:
+      - '0.024215'
+      X-Github-Request-Id:
+      - D4A8:0EE7:7839BB:10FBF18:5B7F681A
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"login":"test-organization35","id":42592263,"node_id":"MDEyOk9yZ2FuaXphdGlvbjQyNTkyMjYz","url":"https://api.github.com/orgs/test-organization35","repos_url":"https://api.github.com/orgs/test-organization35/repos","events_url":"https://api.github.com/orgs/test-organization35/events","hooks_url":"https://api.github.com/orgs/test-organization35/hooks","issues_url":"https://api.github.com/orgs/test-organization35/issues","members_url":"https://api.github.com/orgs/test-organization35/members{/member}","public_members_url":"https://api.github.com/orgs/test-organization35/public_members{/member}","avatar_url":"https://avatars0.githubusercontent.com/u/42592263?v=4","description":"This
+        is a test for an API projcet"}]'
+    http_version: 
+  recorded_at: Fri, 24 Aug 2018 02:06:18 GMT
+recorded_with: VCR 4.0.0

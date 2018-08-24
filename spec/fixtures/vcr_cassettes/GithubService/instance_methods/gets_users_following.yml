@@ -1,0 +1,77 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/user/following
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - token <USER_TOKEN>
+      User-Agent:
+      - Faraday v0.15.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Fri, 24 Aug 2018 02:06:18 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4959'
+      X-Ratelimit-Reset:
+      - '1535078518'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      Etag:
+      - W/"51d07ef136c112f9588e9ef9cf5bf5d8"
+      X-Oauth-Scopes:
+      - repo, user
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Runtime-Rack:
+      - '0.031233'
+      X-Github-Request-Id:
+      - D4A7:0EE7:78399D:10FBEDD:5B7F681A
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"login":"sfreeman422","id":16405652,"node_id":"MDQ6VXNlcjE2NDA1NjUy","avatar_url":"https://avatars3.githubusercontent.com/u/16405652?v=4","gravatar_id":"","url":"https://api.github.com/users/sfreeman422","html_url":"https://github.com/sfreeman422","followers_url":"https://api.github.com/users/sfreeman422/followers","following_url":"https://api.github.com/users/sfreeman422/following{/other_user}","gists_url":"https://api.github.com/users/sfreeman422/gists{/gist_id}","starred_url":"https://api.github.com/users/sfreeman422/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/sfreeman422/subscriptions","organizations_url":"https://api.github.com/users/sfreeman422/orgs","repos_url":"https://api.github.com/users/sfreeman422/repos","events_url":"https://api.github.com/users/sfreeman422/events{/privacy}","received_events_url":"https://api.github.com/users/sfreeman422/received_events","type":"User","site_admin":false},{"login":"colinwarmstrong","id":37191523,"node_id":"MDQ6VXNlcjM3MTkxNTIz","avatar_url":"https://avatars0.githubusercontent.com/u/37191523?v=4","gravatar_id":"","url":"https://api.github.com/users/colinwarmstrong","html_url":"https://github.com/colinwarmstrong","followers_url":"https://api.github.com/users/colinwarmstrong/followers","following_url":"https://api.github.com/users/colinwarmstrong/following{/other_user}","gists_url":"https://api.github.com/users/colinwarmstrong/gists{/gist_id}","starred_url":"https://api.github.com/users/colinwarmstrong/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/colinwarmstrong/subscriptions","organizations_url":"https://api.github.com/users/colinwarmstrong/orgs","repos_url":"https://api.github.com/users/colinwarmstrong/repos","events_url":"https://api.github.com/users/colinwarmstrong/events{/privacy}","received_events_url":"https://api.github.com/users/colinwarmstrong/received_events","type":"User","site_admin":false}]'
+    http_version: 
+  recorded_at: Fri, 24 Aug 2018 02:06:18 GMT
+recorded_with: VCR 4.0.0
