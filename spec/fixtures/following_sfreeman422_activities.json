@@ -1,0 +1,3172 @@
+[
+    {
+        "id": "8153839613",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16405652,
+            "login": "sfreeman422",
+            "display_login": "sfreeman422",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sfreeman422",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16405652?"
+        },
+        "repo": {
+            "id": 78309244,
+            "name": "sfreeman422/RaspAlarm",
+            "url": "https://api.github.com/repos/sfreeman422/RaspAlarm"
+        },
+        "payload": {
+            "push_id": 2818443917,
+            "size": 4,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "bcb6d3eaec6d3ec9276edff78d6884a7b0ed3cd3",
+            "before": "3c9a37795dafa117c883d067a10bf079685f0736",
+            "commits": [
+                {
+                    "sha": "574946bf1b1e0f6f032dc79e51dd627a113aad90",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "Steve Freeman"
+                    },
+                    "message": "Adjused hour issue",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits/574946bf1b1e0f6f032dc79e51dd627a113aad90"
+                },
+                {
+                    "sha": "0a5568de74f21af9814d4ef80a5510e97cd984e7",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "sfreeman422"
+                    },
+                    "message": "Adjusted a type issue regarding generateWeatherState Function",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits/0a5568de74f21af9814d4ef80a5510e97cd984e7"
+                },
+                {
+                    "sha": "7d26de0536dbed0bca16fb4dcb9f0a90e36bd266",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "sfreeman422"
+                    },
+                    "message": "removed unnecessary console.debug",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits/7d26de0536dbed0bca16fb4dcb9f0a90e36bd266"
+                },
+                {
+                    "sha": "bcb6d3eaec6d3ec9276edff78d6884a7b0ed3cd3",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "Steven Freeman"
+                    },
+                    "message": "Merge pull request #20 from sfreeman422/develop\n\nMerge develop into master",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits/bcb6d3eaec6d3ec9276edff78d6884a7b0ed3cd3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2018-08-22T23:49:15Z"
+    },
+    {
+        "id": "8153839582",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 16405652,
+            "login": "sfreeman422",
+            "display_login": "sfreeman422",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sfreeman422",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16405652?"
+        },
+        "repo": {
+            "id": 78309244,
+            "name": "sfreeman422/RaspAlarm",
+            "url": "https://api.github.com/repos/sfreeman422/RaspAlarm"
+        },
+        "payload": {
+            "action": "closed",
+            "number": 20,
+            "pull_request": {
+                "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/20",
+                "id": 210294681,
+                "node_id": "MDExOlB1bGxSZXF1ZXN0MjEwMjk0Njgx",
+                "html_url": "https://github.com/sfreeman422/RaspAlarm/pull/20",
+                "diff_url": "https://github.com/sfreeman422/RaspAlarm/pull/20.diff",
+                "patch_url": "https://github.com/sfreeman422/RaspAlarm/pull/20.patch",
+                "issue_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/20",
+                "number": 20,
+                "state": "closed",
+                "locked": false,
+                "title": "Merge develop into master",
+                "user": {
+                    "login": "sfreeman422",
+                    "id": 16405652,
+                    "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                    "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sfreeman422",
+                    "html_url": "https://github.com/sfreeman422",
+                    "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                    "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                    "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                    "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "",
+                "created_at": "2018-08-22T23:49:07Z",
+                "updated_at": "2018-08-22T23:49:14Z",
+                "closed_at": "2018-08-22T23:49:14Z",
+                "merged_at": "2018-08-22T23:49:14Z",
+                "merge_commit_sha": "bcb6d3eaec6d3ec9276edff78d6884a7b0ed3cd3",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "commits_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/20/commits",
+                "review_comments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/20/comments",
+                "review_comment_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/20/comments",
+                "statuses_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/statuses/7d26de0536dbed0bca16fb4dcb9f0a90e36bd266",
+                "head": {
+                    "label": "sfreeman422:develop",
+                    "ref": "develop",
+                    "sha": "7d26de0536dbed0bca16fb4dcb9f0a90e36bd266",
+                    "user": {
+                        "login": "sfreeman422",
+                        "id": 16405652,
+                        "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                        "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/sfreeman422",
+                        "html_url": "https://github.com/sfreeman422",
+                        "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                        "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                        "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                        "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                        "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 78309244,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk3ODMwOTI0NA==",
+                        "name": "RaspAlarm",
+                        "full_name": "sfreeman422/RaspAlarm",
+                        "owner": {
+                            "login": "sfreeman422",
+                            "id": 16405652,
+                            "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                            "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/sfreeman422",
+                            "html_url": "https://github.com/sfreeman422",
+                            "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                            "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                            "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                            "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                            "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "private": false,
+                        "html_url": "https://github.com/sfreeman422/RaspAlarm",
+                        "description": "A Raspberry Pi Controlled Alarm Clock",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/sfreeman422/RaspAlarm",
+                        "forks_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/forks",
+                        "keys_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/teams",
+                        "hooks_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/hooks",
+                        "issue_events_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/events",
+                        "assignees_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/tags",
+                        "blobs_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/languages",
+                        "stargazers_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/stargazers",
+                        "contributors_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/contributors",
+                        "subscribers_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/subscribers",
+                        "subscription_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/subscription",
+                        "commits_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/merges",
+                        "archive_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/downloads",
+                        "issues_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/deployments",
+                        "created_at": "2017-01-07T23:13:31Z",
+                        "updated_at": "2018-08-19T15:29:13Z",
+                        "pushed_at": "2018-08-22T23:49:14Z",
+                        "git_url": "git://github.com/sfreeman422/RaspAlarm.git",
+                        "ssh_url": "git@github.com:sfreeman422/RaspAlarm.git",
+                        "clone_url": "https://github.com/sfreeman422/RaspAlarm.git",
+                        "svn_url": "https://github.com/sfreeman422/RaspAlarm",
+                        "homepage": "",
+                        "size": 33804,
+                        "stargazers_count": 9,
+                        "watchers_count": 9,
+                        "language": "CSS",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "forks_count": 5,
+                        "mirror_url": null,
+                        "archived": false,
+                        "open_issues_count": 0,
+                        "license": null,
+                        "forks": 5,
+                        "open_issues": 0,
+                        "watchers": 9,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "sfreeman422:master",
+                    "ref": "master",
+                    "sha": "3c9a37795dafa117c883d067a10bf079685f0736",
+                    "user": {
+                        "login": "sfreeman422",
+                        "id": 16405652,
+                        "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                        "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/sfreeman422",
+                        "html_url": "https://github.com/sfreeman422",
+                        "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                        "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                        "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                        "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                        "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 78309244,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk3ODMwOTI0NA==",
+                        "name": "RaspAlarm",
+                        "full_name": "sfreeman422/RaspAlarm",
+                        "owner": {
+                            "login": "sfreeman422",
+                            "id": 16405652,
+                            "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                            "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/sfreeman422",
+                            "html_url": "https://github.com/sfreeman422",
+                            "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                            "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                            "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                            "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                            "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "private": false,
+                        "html_url": "https://github.com/sfreeman422/RaspAlarm",
+                        "description": "A Raspberry Pi Controlled Alarm Clock",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/sfreeman422/RaspAlarm",
+                        "forks_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/forks",
+                        "keys_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/teams",
+                        "hooks_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/hooks",
+                        "issue_events_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/events",
+                        "assignees_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/tags",
+                        "blobs_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/languages",
+                        "stargazers_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/stargazers",
+                        "contributors_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/contributors",
+                        "subscribers_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/subscribers",
+                        "subscription_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/subscription",
+                        "commits_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/merges",
+                        "archive_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/downloads",
+                        "issues_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/deployments",
+                        "created_at": "2017-01-07T23:13:31Z",
+                        "updated_at": "2018-08-19T15:29:13Z",
+                        "pushed_at": "2018-08-22T23:49:14Z",
+                        "git_url": "git://github.com/sfreeman422/RaspAlarm.git",
+                        "ssh_url": "git@github.com:sfreeman422/RaspAlarm.git",
+                        "clone_url": "https://github.com/sfreeman422/RaspAlarm.git",
+                        "svn_url": "https://github.com/sfreeman422/RaspAlarm",
+                        "homepage": "",
+                        "size": 33804,
+                        "stargazers_count": 9,
+                        "watchers_count": 9,
+                        "language": "CSS",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "forks_count": 5,
+                        "mirror_url": null,
+                        "archived": false,
+                        "open_issues_count": 0,
+                        "license": null,
+                        "forks": 5,
+                        "open_issues": 0,
+                        "watchers": 9,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/20"
+                    },
+                    "html": {
+                        "href": "https://github.com/sfreeman422/RaspAlarm/pull/20"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/20"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/20/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/20/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/20/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/statuses/7d26de0536dbed0bca16fb4dcb9f0a90e36bd266"
+                    }
+                },
+                "author_association": "OWNER",
+                "merged": true,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": {
+                    "login": "sfreeman422",
+                    "id": 16405652,
+                    "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                    "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sfreeman422",
+                    "html_url": "https://github.com/sfreeman422",
+                    "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                    "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                    "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                    "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 3,
+                "additions": 1,
+                "deletions": 2,
+                "changed_files": 1
+            }
+        },
+        "public": true,
+        "created_at": "2018-08-22T23:49:14Z"
+    },
+    {
+        "id": "8153839245",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 16405652,
+            "login": "sfreeman422",
+            "display_login": "sfreeman422",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sfreeman422",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16405652?"
+        },
+        "repo": {
+            "id": 78309244,
+            "name": "sfreeman422/RaspAlarm",
+            "url": "https://api.github.com/repos/sfreeman422/RaspAlarm"
+        },
+        "payload": {
+            "action": "opened",
+            "number": 20,
+            "pull_request": {
+                "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/20",
+                "id": 210294681,
+                "node_id": "MDExOlB1bGxSZXF1ZXN0MjEwMjk0Njgx",
+                "html_url": "https://github.com/sfreeman422/RaspAlarm/pull/20",
+                "diff_url": "https://github.com/sfreeman422/RaspAlarm/pull/20.diff",
+                "patch_url": "https://github.com/sfreeman422/RaspAlarm/pull/20.patch",
+                "issue_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/20",
+                "number": 20,
+                "state": "open",
+                "locked": false,
+                "title": "Merge develop into master",
+                "user": {
+                    "login": "sfreeman422",
+                    "id": 16405652,
+                    "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                    "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sfreeman422",
+                    "html_url": "https://github.com/sfreeman422",
+                    "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                    "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                    "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                    "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "",
+                "created_at": "2018-08-22T23:49:07Z",
+                "updated_at": "2018-08-22T23:49:07Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": null,
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "commits_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/20/commits",
+                "review_comments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/20/comments",
+                "review_comment_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/20/comments",
+                "statuses_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/statuses/7d26de0536dbed0bca16fb4dcb9f0a90e36bd266",
+                "head": {
+                    "label": "sfreeman422:develop",
+                    "ref": "develop",
+                    "sha": "7d26de0536dbed0bca16fb4dcb9f0a90e36bd266",
+                    "user": {
+                        "login": "sfreeman422",
+                        "id": 16405652,
+                        "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                        "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/sfreeman422",
+                        "html_url": "https://github.com/sfreeman422",
+                        "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                        "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                        "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                        "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                        "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 78309244,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk3ODMwOTI0NA==",
+                        "name": "RaspAlarm",
+                        "full_name": "sfreeman422/RaspAlarm",
+                        "owner": {
+                            "login": "sfreeman422",
+                            "id": 16405652,
+                            "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                            "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/sfreeman422",
+                            "html_url": "https://github.com/sfreeman422",
+                            "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                            "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                            "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                            "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                            "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "private": false,
+                        "html_url": "https://github.com/sfreeman422/RaspAlarm",
+                        "description": "A Raspberry Pi Controlled Alarm Clock",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/sfreeman422/RaspAlarm",
+                        "forks_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/forks",
+                        "keys_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/teams",
+                        "hooks_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/hooks",
+                        "issue_events_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/events",
+                        "assignees_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/tags",
+                        "blobs_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/languages",
+                        "stargazers_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/stargazers",
+                        "contributors_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/contributors",
+                        "subscribers_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/subscribers",
+                        "subscription_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/subscription",
+                        "commits_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/merges",
+                        "archive_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/downloads",
+                        "issues_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/deployments",
+                        "created_at": "2017-01-07T23:13:31Z",
+                        "updated_at": "2018-08-19T15:29:13Z",
+                        "pushed_at": "2018-08-20T12:32:46Z",
+                        "git_url": "git://github.com/sfreeman422/RaspAlarm.git",
+                        "ssh_url": "git@github.com:sfreeman422/RaspAlarm.git",
+                        "clone_url": "https://github.com/sfreeman422/RaspAlarm.git",
+                        "svn_url": "https://github.com/sfreeman422/RaspAlarm",
+                        "homepage": "",
+                        "size": 33804,
+                        "stargazers_count": 9,
+                        "watchers_count": 9,
+                        "language": "CSS",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "forks_count": 5,
+                        "mirror_url": null,
+                        "archived": false,
+                        "open_issues_count": 1,
+                        "license": null,
+                        "forks": 5,
+                        "open_issues": 1,
+                        "watchers": 9,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "sfreeman422:master",
+                    "ref": "master",
+                    "sha": "3c9a37795dafa117c883d067a10bf079685f0736",
+                    "user": {
+                        "login": "sfreeman422",
+                        "id": 16405652,
+                        "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                        "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/sfreeman422",
+                        "html_url": "https://github.com/sfreeman422",
+                        "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                        "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                        "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                        "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                        "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 78309244,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk3ODMwOTI0NA==",
+                        "name": "RaspAlarm",
+                        "full_name": "sfreeman422/RaspAlarm",
+                        "owner": {
+                            "login": "sfreeman422",
+                            "id": 16405652,
+                            "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                            "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/sfreeman422",
+                            "html_url": "https://github.com/sfreeman422",
+                            "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                            "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                            "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                            "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                            "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "private": false,
+                        "html_url": "https://github.com/sfreeman422/RaspAlarm",
+                        "description": "A Raspberry Pi Controlled Alarm Clock",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/sfreeman422/RaspAlarm",
+                        "forks_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/forks",
+                        "keys_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/teams",
+                        "hooks_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/hooks",
+                        "issue_events_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/events",
+                        "assignees_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/tags",
+                        "blobs_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/languages",
+                        "stargazers_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/stargazers",
+                        "contributors_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/contributors",
+                        "subscribers_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/subscribers",
+                        "subscription_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/subscription",
+                        "commits_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/merges",
+                        "archive_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/downloads",
+                        "issues_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/deployments",
+                        "created_at": "2017-01-07T23:13:31Z",
+                        "updated_at": "2018-08-19T15:29:13Z",
+                        "pushed_at": "2018-08-20T12:32:46Z",
+                        "git_url": "git://github.com/sfreeman422/RaspAlarm.git",
+                        "ssh_url": "git@github.com:sfreeman422/RaspAlarm.git",
+                        "clone_url": "https://github.com/sfreeman422/RaspAlarm.git",
+                        "svn_url": "https://github.com/sfreeman422/RaspAlarm",
+                        "homepage": "",
+                        "size": 33804,
+                        "stargazers_count": 9,
+                        "watchers_count": 9,
+                        "language": "CSS",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "forks_count": 5,
+                        "mirror_url": null,
+                        "archived": false,
+                        "open_issues_count": 1,
+                        "license": null,
+                        "forks": 5,
+                        "open_issues": 1,
+                        "watchers": 9,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/20"
+                    },
+                    "html": {
+                        "href": "https://github.com/sfreeman422/RaspAlarm/pull/20"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/20"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/20/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/20/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/20/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/statuses/7d26de0536dbed0bca16fb4dcb9f0a90e36bd266"
+                    }
+                },
+                "author_association": "OWNER",
+                "merged": false,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": null,
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 3,
+                "additions": 1,
+                "deletions": 2,
+                "changed_files": 1
+            }
+        },
+        "public": true,
+        "created_at": "2018-08-22T23:49:07Z"
+    },
+    {
+        "id": "8137647036",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 16405652,
+            "login": "sfreeman422",
+            "display_login": "sfreeman422",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sfreeman422",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16405652?"
+        },
+        "repo": {
+            "id": 78309244,
+            "name": "sfreeman422/RaspAlarm",
+            "url": "https://api.github.com/repos/sfreeman422/RaspAlarm"
+        },
+        "payload": {
+            "ref": "feature/error-handling",
+            "ref_type": "branch",
+            "master_branch": "master",
+            "description": "A Raspberry Pi Controlled Alarm Clock",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2018-08-20T12:32:46Z"
+    },
+    {
+        "id": "8135123310",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16405652,
+            "login": "sfreeman422",
+            "display_login": "sfreeman422",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sfreeman422",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16405652?"
+        },
+        "repo": {
+            "id": 78309244,
+            "name": "sfreeman422/RaspAlarm",
+            "url": "https://api.github.com/repos/sfreeman422/RaspAlarm"
+        },
+        "payload": {
+            "push_id": 2808914874,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/develop",
+            "head": "7d26de0536dbed0bca16fb4dcb9f0a90e36bd266",
+            "before": "574946bf1b1e0f6f032dc79e51dd627a113aad90",
+            "commits": [
+                {
+                    "sha": "0a5568de74f21af9814d4ef80a5510e97cd984e7",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "sfreeman422"
+                    },
+                    "message": "Adjusted a type issue regarding generateWeatherState Function",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits/0a5568de74f21af9814d4ef80a5510e97cd984e7"
+                },
+                {
+                    "sha": "7d26de0536dbed0bca16fb4dcb9f0a90e36bd266",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "sfreeman422"
+                    },
+                    "message": "removed unnecessary console.debug",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits/7d26de0536dbed0bca16fb4dcb9f0a90e36bd266"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2018-08-20T00:11:50Z"
+    },
+    {
+        "id": "8134618202",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16405652,
+            "login": "sfreeman422",
+            "display_login": "sfreeman422",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sfreeman422",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16405652?"
+        },
+        "repo": {
+            "id": 78309244,
+            "name": "sfreeman422/RaspAlarm",
+            "url": "https://api.github.com/repos/sfreeman422/RaspAlarm"
+        },
+        "payload": {
+            "push_id": 2808599297,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/develop",
+            "head": "574946bf1b1e0f6f032dc79e51dd627a113aad90",
+            "before": "e2a6626dd5a9f1f0b39f53d274b3aecc26e9819d",
+            "commits": [
+                {
+                    "sha": "574946bf1b1e0f6f032dc79e51dd627a113aad90",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "Steve Freeman"
+                    },
+                    "message": "Adjused hour issue",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits/574946bf1b1e0f6f032dc79e51dd627a113aad90"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2018-08-19T17:54:30Z"
+    },
+    {
+        "id": "8134540183",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16405652,
+            "login": "sfreeman422",
+            "display_login": "sfreeman422",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sfreeman422",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16405652?"
+        },
+        "repo": {
+            "id": 115637189,
+            "name": "sfreeman422/musicStream",
+            "url": "https://api.github.com/repos/sfreeman422/musicStream"
+        },
+        "payload": {
+            "push_id": 2808550594,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/develop",
+            "head": "ea41e0c28622c27f12de1b74fb32cf29e775519a",
+            "before": "6244af7b43f889ae0962482f5b5ed8c785bfc883",
+            "commits": [
+                {
+                    "sha": "ea41e0c28622c27f12de1b74fb32cf29e775519a",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "sfreeman422"
+                    },
+                    "message": "Removed headphones in my queue since they are invalid, also working on streaming issues",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sfreeman422/musicStream/commits/ea41e0c28622c27f12de1b74fb32cf29e775519a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2018-08-19T16:58:07Z"
+    },
+    {
+        "id": "8134515481",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16405652,
+            "login": "sfreeman422",
+            "display_login": "sfreeman422",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sfreeman422",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16405652?"
+        },
+        "repo": {
+            "id": 115637189,
+            "name": "sfreeman422/musicStream",
+            "url": "https://api.github.com/repos/sfreeman422/musicStream"
+        },
+        "payload": {
+            "push_id": 2808535529,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/develop",
+            "head": "6244af7b43f889ae0962482f5b5ed8c785bfc883",
+            "before": "e92f8ac283c7dc7eb62466345628c261e8834d5e",
+            "commits": [
+                {
+                    "sha": "6244af7b43f889ae0962482f5b5ed8c785bfc883",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "sfreeman422"
+                    },
+                    "message": "Resolved issues with myQueue and search",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sfreeman422/musicStream/commits/6244af7b43f889ae0962482f5b5ed8c785bfc883"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2018-08-19T16:40:28Z"
+    },
+    {
+        "id": "8134410401",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16405652,
+            "login": "sfreeman422",
+            "display_login": "sfreeman422",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sfreeman422",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16405652?"
+        },
+        "repo": {
+            "id": 78309244,
+            "name": "sfreeman422/RaspAlarm",
+            "url": "https://api.github.com/repos/sfreeman422/RaspAlarm"
+        },
+        "payload": {
+            "push_id": 2808469899,
+            "size": 8,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "3c9a37795dafa117c883d067a10bf079685f0736",
+            "before": "4c52c7fbe4f72c8601bc8c961e38e6ca13b5f371",
+            "commits": [
+                {
+                    "sha": "c21eb3c2e51b7402e98ae8834f060f1bf6aa056a",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "sfreeman422"
+                    },
+                    "message": "Remove unnecessary console logs and broke out generateWeatherState function",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits/c21eb3c2e51b7402e98ae8834f060f1bf6aa056a"
+                },
+                {
+                    "sha": "ade5216cd268f04197dcc0a48d6f9c8a16dac068",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "Steven Freeman"
+                    },
+                    "message": "Adjusted generateWeatherState function",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits/ade5216cd268f04197dcc0a48d6f9c8a16dac068"
+                },
+                {
+                    "sha": "485274713f35503c3c00447f40996aba0885771d",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "Steven Freeman"
+                    },
+                    "message": "Restructured folder and resolved an unmounting interval issue",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits/485274713f35503c3c00447f40996aba0885771d"
+                },
+                {
+                    "sha": "97118ffd2c1f392c65f4191b94da9cde8fe1342b",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "Steven Freeman"
+                    },
+                    "message": "Merge pull request #18 from sfreeman422/feature/restructure\n\nRestructured folder and resolved an unmounting interval issue",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits/97118ffd2c1f392c65f4191b94da9cde8fe1342b"
+                },
+                {
+                    "sha": "8f0f0ca17846a15879e1cf67920e966d83ce0b89",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "Steven Freeman"
+                    },
+                    "message": "FIX: Adjusted how we setLastTemperature to reflect the proper array index",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits/8f0f0ca17846a15879e1cf67920e966d83ce0b89"
+                },
+                {
+                    "sha": "eefe125d4ea70ed2d0eea5c1c9ff7d7163a97229",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "sfreeman422"
+                    },
+                    "message": "Adjusted how we drop our first hour",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits/eefe125d4ea70ed2d0eea5c1c9ff7d7163a97229"
+                },
+                {
+                    "sha": "e2a6626dd5a9f1f0b39f53d274b3aecc26e9819d",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "sfreeman422"
+                    },
+                    "message": "Hotfix for lastTemperature",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits/e2a6626dd5a9f1f0b39f53d274b3aecc26e9819d"
+                },
+                {
+                    "sha": "3c9a37795dafa117c883d067a10bf079685f0736",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "Steven Freeman"
+                    },
+                    "message": "Merge pull request #19 from sfreeman422/develop\n\nDevelop",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits/3c9a37795dafa117c883d067a10bf079685f0736"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2018-08-19T15:29:12Z"
+    },
+    {
+        "id": "8134410369",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 16405652,
+            "login": "sfreeman422",
+            "display_login": "sfreeman422",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sfreeman422",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16405652?"
+        },
+        "repo": {
+            "id": 78309244,
+            "name": "sfreeman422/RaspAlarm",
+            "url": "https://api.github.com/repos/sfreeman422/RaspAlarm"
+        },
+        "payload": {
+            "action": "closed",
+            "number": 19,
+            "pull_request": {
+                "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/19",
+                "id": 209365452,
+                "node_id": "MDExOlB1bGxSZXF1ZXN0MjA5MzY1NDUy",
+                "html_url": "https://github.com/sfreeman422/RaspAlarm/pull/19",
+                "diff_url": "https://github.com/sfreeman422/RaspAlarm/pull/19.diff",
+                "patch_url": "https://github.com/sfreeman422/RaspAlarm/pull/19.patch",
+                "issue_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/19",
+                "number": 19,
+                "state": "closed",
+                "locked": false,
+                "title": "Develop",
+                "user": {
+                    "login": "sfreeman422",
+                    "id": 16405652,
+                    "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                    "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sfreeman422",
+                    "html_url": "https://github.com/sfreeman422",
+                    "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                    "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                    "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                    "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "",
+                "created_at": "2018-08-19T15:29:06Z",
+                "updated_at": "2018-08-19T15:29:11Z",
+                "closed_at": "2018-08-19T15:29:11Z",
+                "merged_at": "2018-08-19T15:29:11Z",
+                "merge_commit_sha": "3c9a37795dafa117c883d067a10bf079685f0736",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "commits_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/19/commits",
+                "review_comments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/19/comments",
+                "review_comment_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/19/comments",
+                "statuses_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/statuses/e2a6626dd5a9f1f0b39f53d274b3aecc26e9819d",
+                "head": {
+                    "label": "sfreeman422:develop",
+                    "ref": "develop",
+                    "sha": "e2a6626dd5a9f1f0b39f53d274b3aecc26e9819d",
+                    "user": {
+                        "login": "sfreeman422",
+                        "id": 16405652,
+                        "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                        "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/sfreeman422",
+                        "html_url": "https://github.com/sfreeman422",
+                        "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                        "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                        "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                        "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                        "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 78309244,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk3ODMwOTI0NA==",
+                        "name": "RaspAlarm",
+                        "full_name": "sfreeman422/RaspAlarm",
+                        "owner": {
+                            "login": "sfreeman422",
+                            "id": 16405652,
+                            "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                            "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/sfreeman422",
+                            "html_url": "https://github.com/sfreeman422",
+                            "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                            "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                            "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                            "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                            "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "private": false,
+                        "html_url": "https://github.com/sfreeman422/RaspAlarm",
+                        "description": "A Raspberry Pi Controlled Alarm Clock",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/sfreeman422/RaspAlarm",
+                        "forks_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/forks",
+                        "keys_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/teams",
+                        "hooks_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/hooks",
+                        "issue_events_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/events",
+                        "assignees_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/tags",
+                        "blobs_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/languages",
+                        "stargazers_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/stargazers",
+                        "contributors_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/contributors",
+                        "subscribers_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/subscribers",
+                        "subscription_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/subscription",
+                        "commits_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/merges",
+                        "archive_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/downloads",
+                        "issues_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/deployments",
+                        "created_at": "2017-01-07T23:13:31Z",
+                        "updated_at": "2018-08-03T22:41:53Z",
+                        "pushed_at": "2018-08-19T15:29:11Z",
+                        "git_url": "git://github.com/sfreeman422/RaspAlarm.git",
+                        "ssh_url": "git@github.com:sfreeman422/RaspAlarm.git",
+                        "clone_url": "https://github.com/sfreeman422/RaspAlarm.git",
+                        "svn_url": "https://github.com/sfreeman422/RaspAlarm",
+                        "homepage": "",
+                        "size": 33790,
+                        "stargazers_count": 9,
+                        "watchers_count": 9,
+                        "language": "CSS",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "forks_count": 5,
+                        "mirror_url": null,
+                        "archived": false,
+                        "open_issues_count": 0,
+                        "license": null,
+                        "forks": 5,
+                        "open_issues": 0,
+                        "watchers": 9,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "sfreeman422:master",
+                    "ref": "master",
+                    "sha": "4c52c7fbe4f72c8601bc8c961e38e6ca13b5f371",
+                    "user": {
+                        "login": "sfreeman422",
+                        "id": 16405652,
+                        "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                        "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/sfreeman422",
+                        "html_url": "https://github.com/sfreeman422",
+                        "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                        "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                        "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                        "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                        "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 78309244,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk3ODMwOTI0NA==",
+                        "name": "RaspAlarm",
+                        "full_name": "sfreeman422/RaspAlarm",
+                        "owner": {
+                            "login": "sfreeman422",
+                            "id": 16405652,
+                            "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                            "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/sfreeman422",
+                            "html_url": "https://github.com/sfreeman422",
+                            "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                            "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                            "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                            "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                            "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "private": false,
+                        "html_url": "https://github.com/sfreeman422/RaspAlarm",
+                        "description": "A Raspberry Pi Controlled Alarm Clock",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/sfreeman422/RaspAlarm",
+                        "forks_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/forks",
+                        "keys_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/teams",
+                        "hooks_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/hooks",
+                        "issue_events_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/events",
+                        "assignees_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/tags",
+                        "blobs_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/languages",
+                        "stargazers_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/stargazers",
+                        "contributors_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/contributors",
+                        "subscribers_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/subscribers",
+                        "subscription_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/subscription",
+                        "commits_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/merges",
+                        "archive_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/downloads",
+                        "issues_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/deployments",
+                        "created_at": "2017-01-07T23:13:31Z",
+                        "updated_at": "2018-08-03T22:41:53Z",
+                        "pushed_at": "2018-08-19T15:29:11Z",
+                        "git_url": "git://github.com/sfreeman422/RaspAlarm.git",
+                        "ssh_url": "git@github.com:sfreeman422/RaspAlarm.git",
+                        "clone_url": "https://github.com/sfreeman422/RaspAlarm.git",
+                        "svn_url": "https://github.com/sfreeman422/RaspAlarm",
+                        "homepage": "",
+                        "size": 33790,
+                        "stargazers_count": 9,
+                        "watchers_count": 9,
+                        "language": "CSS",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "forks_count": 5,
+                        "mirror_url": null,
+                        "archived": false,
+                        "open_issues_count": 0,
+                        "license": null,
+                        "forks": 5,
+                        "open_issues": 0,
+                        "watchers": 9,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/19"
+                    },
+                    "html": {
+                        "href": "https://github.com/sfreeman422/RaspAlarm/pull/19"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/19"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/19/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/19/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/19/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/statuses/e2a6626dd5a9f1f0b39f53d274b3aecc26e9819d"
+                    }
+                },
+                "author_association": "OWNER",
+                "merged": true,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": {
+                    "login": "sfreeman422",
+                    "id": 16405652,
+                    "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                    "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sfreeman422",
+                    "html_url": "https://github.com/sfreeman422",
+                    "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                    "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                    "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                    "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 7,
+                "additions": 52,
+                "deletions": 65,
+                "changed_files": 10
+            }
+        },
+        "public": true,
+        "created_at": "2018-08-19T15:29:11Z"
+    },
+    {
+        "id": "8134410233",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 16405652,
+            "login": "sfreeman422",
+            "display_login": "sfreeman422",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sfreeman422",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16405652?"
+        },
+        "repo": {
+            "id": 78309244,
+            "name": "sfreeman422/RaspAlarm",
+            "url": "https://api.github.com/repos/sfreeman422/RaspAlarm"
+        },
+        "payload": {
+            "action": "opened",
+            "number": 19,
+            "pull_request": {
+                "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/19",
+                "id": 209365452,
+                "node_id": "MDExOlB1bGxSZXF1ZXN0MjA5MzY1NDUy",
+                "html_url": "https://github.com/sfreeman422/RaspAlarm/pull/19",
+                "diff_url": "https://github.com/sfreeman422/RaspAlarm/pull/19.diff",
+                "patch_url": "https://github.com/sfreeman422/RaspAlarm/pull/19.patch",
+                "issue_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/19",
+                "number": 19,
+                "state": "open",
+                "locked": false,
+                "title": "Develop",
+                "user": {
+                    "login": "sfreeman422",
+                    "id": 16405652,
+                    "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                    "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sfreeman422",
+                    "html_url": "https://github.com/sfreeman422",
+                    "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                    "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                    "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                    "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "",
+                "created_at": "2018-08-19T15:29:06Z",
+                "updated_at": "2018-08-19T15:29:06Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": null,
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "commits_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/19/commits",
+                "review_comments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/19/comments",
+                "review_comment_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/19/comments",
+                "statuses_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/statuses/e2a6626dd5a9f1f0b39f53d274b3aecc26e9819d",
+                "head": {
+                    "label": "sfreeman422:develop",
+                    "ref": "develop",
+                    "sha": "e2a6626dd5a9f1f0b39f53d274b3aecc26e9819d",
+                    "user": {
+                        "login": "sfreeman422",
+                        "id": 16405652,
+                        "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                        "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/sfreeman422",
+                        "html_url": "https://github.com/sfreeman422",
+                        "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                        "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                        "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                        "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                        "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 78309244,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk3ODMwOTI0NA==",
+                        "name": "RaspAlarm",
+                        "full_name": "sfreeman422/RaspAlarm",
+                        "owner": {
+                            "login": "sfreeman422",
+                            "id": 16405652,
+                            "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                            "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/sfreeman422",
+                            "html_url": "https://github.com/sfreeman422",
+                            "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                            "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                            "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                            "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                            "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "private": false,
+                        "html_url": "https://github.com/sfreeman422/RaspAlarm",
+                        "description": "A Raspberry Pi Controlled Alarm Clock",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/sfreeman422/RaspAlarm",
+                        "forks_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/forks",
+                        "keys_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/teams",
+                        "hooks_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/hooks",
+                        "issue_events_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/events",
+                        "assignees_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/tags",
+                        "blobs_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/languages",
+                        "stargazers_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/stargazers",
+                        "contributors_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/contributors",
+                        "subscribers_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/subscribers",
+                        "subscription_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/subscription",
+                        "commits_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/merges",
+                        "archive_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/downloads",
+                        "issues_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/deployments",
+                        "created_at": "2017-01-07T23:13:31Z",
+                        "updated_at": "2018-08-03T22:41:53Z",
+                        "pushed_at": "2018-08-19T15:20:27Z",
+                        "git_url": "git://github.com/sfreeman422/RaspAlarm.git",
+                        "ssh_url": "git@github.com:sfreeman422/RaspAlarm.git",
+                        "clone_url": "https://github.com/sfreeman422/RaspAlarm.git",
+                        "svn_url": "https://github.com/sfreeman422/RaspAlarm",
+                        "homepage": "",
+                        "size": 33790,
+                        "stargazers_count": 9,
+                        "watchers_count": 9,
+                        "language": "CSS",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "forks_count": 5,
+                        "mirror_url": null,
+                        "archived": false,
+                        "open_issues_count": 1,
+                        "license": null,
+                        "forks": 5,
+                        "open_issues": 1,
+                        "watchers": 9,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "sfreeman422:master",
+                    "ref": "master",
+                    "sha": "4c52c7fbe4f72c8601bc8c961e38e6ca13b5f371",
+                    "user": {
+                        "login": "sfreeman422",
+                        "id": 16405652,
+                        "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                        "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/sfreeman422",
+                        "html_url": "https://github.com/sfreeman422",
+                        "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                        "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                        "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                        "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                        "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 78309244,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk3ODMwOTI0NA==",
+                        "name": "RaspAlarm",
+                        "full_name": "sfreeman422/RaspAlarm",
+                        "owner": {
+                            "login": "sfreeman422",
+                            "id": 16405652,
+                            "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                            "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/sfreeman422",
+                            "html_url": "https://github.com/sfreeman422",
+                            "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                            "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                            "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                            "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                            "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "private": false,
+                        "html_url": "https://github.com/sfreeman422/RaspAlarm",
+                        "description": "A Raspberry Pi Controlled Alarm Clock",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/sfreeman422/RaspAlarm",
+                        "forks_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/forks",
+                        "keys_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/teams",
+                        "hooks_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/hooks",
+                        "issue_events_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/events",
+                        "assignees_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/tags",
+                        "blobs_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/languages",
+                        "stargazers_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/stargazers",
+                        "contributors_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/contributors",
+                        "subscribers_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/subscribers",
+                        "subscription_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/subscription",
+                        "commits_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/merges",
+                        "archive_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/downloads",
+                        "issues_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/deployments",
+                        "created_at": "2017-01-07T23:13:31Z",
+                        "updated_at": "2018-08-03T22:41:53Z",
+                        "pushed_at": "2018-08-19T15:20:27Z",
+                        "git_url": "git://github.com/sfreeman422/RaspAlarm.git",
+                        "ssh_url": "git@github.com:sfreeman422/RaspAlarm.git",
+                        "clone_url": "https://github.com/sfreeman422/RaspAlarm.git",
+                        "svn_url": "https://github.com/sfreeman422/RaspAlarm",
+                        "homepage": "",
+                        "size": 33790,
+                        "stargazers_count": 9,
+                        "watchers_count": 9,
+                        "language": "CSS",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "forks_count": 5,
+                        "mirror_url": null,
+                        "archived": false,
+                        "open_issues_count": 1,
+                        "license": null,
+                        "forks": 5,
+                        "open_issues": 1,
+                        "watchers": 9,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/19"
+                    },
+                    "html": {
+                        "href": "https://github.com/sfreeman422/RaspAlarm/pull/19"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/19"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/19/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/19/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/19/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/statuses/e2a6626dd5a9f1f0b39f53d274b3aecc26e9819d"
+                    }
+                },
+                "author_association": "OWNER",
+                "merged": false,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": null,
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 7,
+                "additions": 52,
+                "deletions": 65,
+                "changed_files": 10
+            }
+        },
+        "public": true,
+        "created_at": "2018-08-19T15:29:06Z"
+    },
+    {
+        "id": "8134397542",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16405652,
+            "login": "sfreeman422",
+            "display_login": "sfreeman422",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sfreeman422",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16405652?"
+        },
+        "repo": {
+            "id": 78309244,
+            "name": "sfreeman422/RaspAlarm",
+            "url": "https://api.github.com/repos/sfreeman422/RaspAlarm"
+        },
+        "payload": {
+            "push_id": 2808462000,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/develop",
+            "head": "e2a6626dd5a9f1f0b39f53d274b3aecc26e9819d",
+            "before": "8f0f0ca17846a15879e1cf67920e966d83ce0b89",
+            "commits": [
+                {
+                    "sha": "eefe125d4ea70ed2d0eea5c1c9ff7d7163a97229",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "sfreeman422"
+                    },
+                    "message": "Adjusted how we drop our first hour",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits/eefe125d4ea70ed2d0eea5c1c9ff7d7163a97229"
+                },
+                {
+                    "sha": "e2a6626dd5a9f1f0b39f53d274b3aecc26e9819d",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "sfreeman422"
+                    },
+                    "message": "Hotfix for lastTemperature",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits/e2a6626dd5a9f1f0b39f53d274b3aecc26e9819d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2018-08-19T15:20:28Z"
+    },
+    {
+        "id": "8104701112",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16405652,
+            "login": "sfreeman422",
+            "display_login": "sfreeman422",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sfreeman422",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16405652?"
+        },
+        "repo": {
+            "id": 78309244,
+            "name": "sfreeman422/RaspAlarm",
+            "url": "https://api.github.com/repos/sfreeman422/RaspAlarm"
+        },
+        "payload": {
+            "push_id": 2792927207,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/feature/testing",
+            "head": "9309ba3e9e1486a0abe86a3bf043ea053251bf6d",
+            "before": "8426b56d616d603edabd9678f15d1505d55fdb4b",
+            "commits": [
+                {
+                    "sha": "9309ba3e9e1486a0abe86a3bf043ea053251bf6d",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "Steven Freeman"
+                    },
+                    "message": "Beginning of tests for app.jsx",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits/9309ba3e9e1486a0abe86a3bf043ea053251bf6d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2018-08-13T12:32:38Z"
+    },
+    {
+        "id": "8098495998",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16405652,
+            "login": "sfreeman422",
+            "display_login": "sfreeman422",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sfreeman422",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16405652?"
+        },
+        "repo": {
+            "id": 115637189,
+            "name": "sfreeman422/musicStream",
+            "url": "https://api.github.com/repos/sfreeman422/musicStream"
+        },
+        "payload": {
+            "push_id": 2789294535,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/develop",
+            "head": "e92f8ac283c7dc7eb62466345628c261e8834d5e",
+            "before": "4a3b5f432c2fbbbb098fc6bf4637f5fd35cc60ec",
+            "commits": [
+                {
+                    "sha": "e92f8ac283c7dc7eb62466345628c261e8834d5e",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "Steven Freeman"
+                    },
+                    "message": "Fixed search results from crashing when lacking results",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sfreeman422/musicStream/commits/e92f8ac283c7dc7eb62466345628c261e8834d5e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2018-08-10T21:45:24Z"
+    },
+    {
+        "id": "8098479649",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16405652,
+            "login": "sfreeman422",
+            "display_login": "sfreeman422",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sfreeman422",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16405652?"
+        },
+        "repo": {
+            "id": 78309244,
+            "name": "sfreeman422/RaspAlarm",
+            "url": "https://api.github.com/repos/sfreeman422/RaspAlarm"
+        },
+        "payload": {
+            "push_id": 2789285861,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/feature/testing",
+            "head": "8426b56d616d603edabd9678f15d1505d55fdb4b",
+            "before": "63e0e01a7179f15a7f8b721be8709a77be0016cb",
+            "commits": [
+                {
+                    "sha": "8426b56d616d603edabd9678f15d1505d55fdb4b",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "Steven Freeman"
+                    },
+                    "message": "Still having test issues. Need to read up on how to effectively test components because this is not how to do that",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits/8426b56d616d603edabd9678f15d1505d55fdb4b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2018-08-10T21:40:31Z"
+    },
+    {
+        "id": "8095924104",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16405652,
+            "login": "sfreeman422",
+            "display_login": "sfreeman422",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sfreeman422",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16405652?"
+        },
+        "repo": {
+            "id": 78309244,
+            "name": "sfreeman422/RaspAlarm",
+            "url": "https://api.github.com/repos/sfreeman422/RaspAlarm"
+        },
+        "payload": {
+            "push_id": 2787980369,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/feature/testing",
+            "head": "63e0e01a7179f15a7f8b721be8709a77be0016cb",
+            "before": "8d00616a3cda2e6ad08e06bfdf2509f6c2257051",
+            "commits": [
+                {
+                    "sha": "63e0e01a7179f15a7f8b721be8709a77be0016cb",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "Steven Freeman"
+                    },
+                    "message": "Cleaned up loading",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits/63e0e01a7179f15a7f8b721be8709a77be0016cb"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2018-08-10T12:41:45Z"
+    },
+    {
+        "id": "8095916109",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16405652,
+            "login": "sfreeman422",
+            "display_login": "sfreeman422",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sfreeman422",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16405652?"
+        },
+        "repo": {
+            "id": 78309244,
+            "name": "sfreeman422/RaspAlarm",
+            "url": "https://api.github.com/repos/sfreeman422/RaspAlarm"
+        },
+        "payload": {
+            "push_id": 2787976308,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/feature/testing",
+            "head": "8d00616a3cda2e6ad08e06bfdf2509f6c2257051",
+            "before": "2ae940623afb8c0a9a309bba584a3557e8fccdbe",
+            "commits": [
+                {
+                    "sha": "8d00616a3cda2e6ad08e06bfdf2509f6c2257051",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "Steven Freeman"
+                    },
+                    "message": "Support for state.icon in loading",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits/8d00616a3cda2e6ad08e06bfdf2509f6c2257051"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2018-08-10T12:40:03Z"
+    },
+    {
+        "id": "8095908481",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16405652,
+            "login": "sfreeman422",
+            "display_login": "sfreeman422",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sfreeman422",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16405652?"
+        },
+        "repo": {
+            "id": 78309244,
+            "name": "sfreeman422/RaspAlarm",
+            "url": "https://api.github.com/repos/sfreeman422/RaspAlarm"
+        },
+        "payload": {
+            "push_id": 2787972667,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/feature/testing",
+            "head": "2ae940623afb8c0a9a309bba584a3557e8fccdbe",
+            "before": "5f276d8c26df0c56fd22b766b10831ed8d74ac6e",
+            "commits": [
+                {
+                    "sha": "2ae940623afb8c0a9a309bba584a3557e8fccdbe",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "Steven Freeman"
+                    },
+                    "message": "Testing is working for Loading, but I don't like the way it works",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits/2ae940623afb8c0a9a309bba584a3557e8fccdbe"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2018-08-10T12:38:30Z"
+    },
+    {
+        "id": "8093137334",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16405652,
+            "login": "sfreeman422",
+            "display_login": "sfreeman422",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sfreeman422",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16405652?"
+        },
+        "repo": {
+            "id": 78309244,
+            "name": "sfreeman422/RaspAlarm",
+            "url": "https://api.github.com/repos/sfreeman422/RaspAlarm"
+        },
+        "payload": {
+            "push_id": 2786528435,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/feature/testing",
+            "head": "5f276d8c26df0c56fd22b766b10831ed8d74ac6e",
+            "before": "3877013ef0db7c0b0491e0d7966a9fa0a8c0bdcd",
+            "commits": [
+                {
+                    "sha": "5f276d8c26df0c56fd22b766b10831ed8d74ac6e",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "Steven Freeman"
+                    },
+                    "message": "Fix for modal",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits/5f276d8c26df0c56fd22b766b10831ed8d74ac6e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2018-08-09T23:02:04Z"
+    },
+    {
+        "id": "8093108047",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16405652,
+            "login": "sfreeman422",
+            "display_login": "sfreeman422",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sfreeman422",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16405652?"
+        },
+        "repo": {
+            "id": 78309244,
+            "name": "sfreeman422/RaspAlarm",
+            "url": "https://api.github.com/repos/sfreeman422/RaspAlarm"
+        },
+        "payload": {
+            "push_id": 2786513089,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/feature/testing",
+            "head": "3877013ef0db7c0b0491e0d7966a9fa0a8c0bdcd",
+            "before": "3b744e81437d5402a2ad5ef49088cd87a038d6da",
+            "commits": [
+                {
+                    "sha": "3877013ef0db7c0b0491e0d7966a9fa0a8c0bdcd",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "Steven Freeman"
+                    },
+                    "message": "Cleaned up a few tests and adding psuedocode to prepare for additional tests",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits/3877013ef0db7c0b0491e0d7966a9fa0a8c0bdcd"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2018-08-09T22:52:56Z"
+    },
+    {
+        "id": "8089894302",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16405652,
+            "login": "sfreeman422",
+            "display_login": "sfreeman422",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sfreeman422",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16405652?"
+        },
+        "repo": {
+            "id": 78309244,
+            "name": "sfreeman422/RaspAlarm",
+            "url": "https://api.github.com/repos/sfreeman422/RaspAlarm"
+        },
+        "payload": {
+            "push_id": 2784871775,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/feature/testing",
+            "head": "3b744e81437d5402a2ad5ef49088cd87a038d6da",
+            "before": "9e95f626600c5bbfb9b11ae9063366c6354b4def",
+            "commits": [
+                {
+                    "sha": "3b744e81437d5402a2ad5ef49088cd87a038d6da",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "Steven Freeman"
+                    },
+                    "message": "Continued work on tests",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits/3b744e81437d5402a2ad5ef49088cd87a038d6da"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2018-08-09T12:34:00Z"
+    },
+    {
+        "id": "8083543461",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16405652,
+            "login": "sfreeman422",
+            "display_login": "sfreeman422",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sfreeman422",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16405652?"
+        },
+        "repo": {
+            "id": 78309244,
+            "name": "sfreeman422/RaspAlarm",
+            "url": "https://api.github.com/repos/sfreeman422/RaspAlarm"
+        },
+        "payload": {
+            "push_id": 2781616132,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/feature/testing",
+            "head": "9e95f626600c5bbfb9b11ae9063366c6354b4def",
+            "before": "db0c9c0bbad4e82817b1e4993a8516e0367074fe",
+            "commits": [
+                {
+                    "sha": "9e95f626600c5bbfb9b11ae9063366c6354b4def",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "Steven Freeman"
+                    },
+                    "message": "AlarmManager test is functional",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits/9e95f626600c5bbfb9b11ae9063366c6354b4def"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2018-08-08T12:13:50Z"
+    },
+    {
+        "id": "8083506225",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16405652,
+            "login": "sfreeman422",
+            "display_login": "sfreeman422",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sfreeman422",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16405652?"
+        },
+        "repo": {
+            "id": 78309244,
+            "name": "sfreeman422/RaspAlarm",
+            "url": "https://api.github.com/repos/sfreeman422/RaspAlarm"
+        },
+        "payload": {
+            "push_id": 2781596390,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/feature/testing",
+            "head": "db0c9c0bbad4e82817b1e4993a8516e0367074fe",
+            "before": "273e2ca0e0a2eb46654dc8d7e5d3724885aa23b1",
+            "commits": [
+                {
+                    "sha": "db0c9c0bbad4e82817b1e4993a8516e0367074fe",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "Steven Freeman"
+                    },
+                    "message": "Testing framwork functional on AlarmManager, having issues with empty arrays though",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits/db0c9c0bbad4e82817b1e4993a8516e0367074fe"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2018-08-08T12:06:05Z"
+    },
+    {
+        "id": "8083429383",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16405652,
+            "login": "sfreeman422",
+            "display_login": "sfreeman422",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sfreeman422",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16405652?"
+        },
+        "repo": {
+            "id": 78309244,
+            "name": "sfreeman422/RaspAlarm",
+            "url": "https://api.github.com/repos/sfreeman422/RaspAlarm"
+        },
+        "payload": {
+            "push_id": 2781555939,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/develop",
+            "head": "8f0f0ca17846a15879e1cf67920e966d83ce0b89",
+            "before": "97118ffd2c1f392c65f4191b94da9cde8fe1342b",
+            "commits": [
+                {
+                    "sha": "8f0f0ca17846a15879e1cf67920e966d83ce0b89",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "Steven Freeman"
+                    },
+                    "message": "FIX: Adjusted how we setLastTemperature to reflect the proper array index",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits/8f0f0ca17846a15879e1cf67920e966d83ce0b89"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2018-08-08T11:49:47Z"
+    },
+    {
+        "id": "8083420400",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16405652,
+            "login": "sfreeman422",
+            "display_login": "sfreeman422",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sfreeman422",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16405652?"
+        },
+        "repo": {
+            "id": 78309244,
+            "name": "sfreeman422/RaspAlarm",
+            "url": "https://api.github.com/repos/sfreeman422/RaspAlarm"
+        },
+        "payload": {
+            "push_id": 2781551332,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/feature/testing",
+            "head": "273e2ca0e0a2eb46654dc8d7e5d3724885aa23b1",
+            "before": "b90e679ed4bbc787503b53b2fcbceb05a1ecd461",
+            "commits": [
+                {
+                    "sha": "273e2ca0e0a2eb46654dc8d7e5d3724885aa23b1",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "Steven Freeman"
+                    },
+                    "message": "Working on tests inside of AlarmManager",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits/273e2ca0e0a2eb46654dc8d7e5d3724885aa23b1"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2018-08-08T11:47:53Z"
+    },
+    {
+        "id": "8071295945",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 16405652,
+            "login": "sfreeman422",
+            "display_login": "sfreeman422",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sfreeman422",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16405652?"
+        },
+        "repo": {
+            "id": 78309244,
+            "name": "sfreeman422/RaspAlarm",
+            "url": "https://api.github.com/repos/sfreeman422/RaspAlarm"
+        },
+        "payload": {
+            "ref": "feature/testing",
+            "ref_type": "branch",
+            "master_branch": "master",
+            "description": "A Raspberry Pi Controlled Alarm Clock",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2018-08-06T12:45:41Z"
+    },
+    {
+        "id": "8066802207",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 16405652,
+            "login": "sfreeman422",
+            "display_login": "sfreeman422",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sfreeman422",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16405652?"
+        },
+        "repo": {
+            "id": 78309244,
+            "name": "sfreeman422/RaspAlarm",
+            "url": "https://api.github.com/repos/sfreeman422/RaspAlarm"
+        },
+        "payload": {
+            "ref": "feature/restructure",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2018-08-04T20:26:23Z"
+    },
+    {
+        "id": "8066802124",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16405652,
+            "login": "sfreeman422",
+            "display_login": "sfreeman422",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sfreeman422",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16405652?"
+        },
+        "repo": {
+            "id": 78309244,
+            "name": "sfreeman422/RaspAlarm",
+            "url": "https://api.github.com/repos/sfreeman422/RaspAlarm"
+        },
+        "payload": {
+            "push_id": 2772837473,
+            "size": 2,
+            "distinct_size": 1,
+            "ref": "refs/heads/develop",
+            "head": "97118ffd2c1f392c65f4191b94da9cde8fe1342b",
+            "before": "ade5216cd268f04197dcc0a48d6f9c8a16dac068",
+            "commits": [
+                {
+                    "sha": "485274713f35503c3c00447f40996aba0885771d",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "Steven Freeman"
+                    },
+                    "message": "Restructured folder and resolved an unmounting interval issue",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits/485274713f35503c3c00447f40996aba0885771d"
+                },
+                {
+                    "sha": "97118ffd2c1f392c65f4191b94da9cde8fe1342b",
+                    "author": {
+                        "email": "sfreeman422@gmail.com",
+                        "name": "Steven Freeman"
+                    },
+                    "message": "Merge pull request #18 from sfreeman422/feature/restructure\n\nRestructured folder and resolved an unmounting interval issue",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits/97118ffd2c1f392c65f4191b94da9cde8fe1342b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2018-08-04T20:26:19Z"
+    },
+    {
+        "id": "8066802111",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 16405652,
+            "login": "sfreeman422",
+            "display_login": "sfreeman422",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sfreeman422",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16405652?"
+        },
+        "repo": {
+            "id": 78309244,
+            "name": "sfreeman422/RaspAlarm",
+            "url": "https://api.github.com/repos/sfreeman422/RaspAlarm"
+        },
+        "payload": {
+            "action": "closed",
+            "number": 18,
+            "pull_request": {
+                "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/18",
+                "id": 206208535,
+                "node_id": "MDExOlB1bGxSZXF1ZXN0MjA2MjA4NTM1",
+                "html_url": "https://github.com/sfreeman422/RaspAlarm/pull/18",
+                "diff_url": "https://github.com/sfreeman422/RaspAlarm/pull/18.diff",
+                "patch_url": "https://github.com/sfreeman422/RaspAlarm/pull/18.patch",
+                "issue_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/18",
+                "number": 18,
+                "state": "closed",
+                "locked": false,
+                "title": "Restructured folder and resolved an unmounting interval issue",
+                "user": {
+                    "login": "sfreeman422",
+                    "id": 16405652,
+                    "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                    "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sfreeman422",
+                    "html_url": "https://github.com/sfreeman422",
+                    "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                    "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                    "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                    "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "",
+                "created_at": "2018-08-04T20:26:13Z",
+                "updated_at": "2018-08-04T20:26:18Z",
+                "closed_at": "2018-08-04T20:26:18Z",
+                "merged_at": "2018-08-04T20:26:18Z",
+                "merge_commit_sha": "97118ffd2c1f392c65f4191b94da9cde8fe1342b",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "commits_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/18/commits",
+                "review_comments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/18/comments",
+                "review_comment_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/18/comments",
+                "statuses_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/statuses/485274713f35503c3c00447f40996aba0885771d",
+                "head": {
+                    "label": "sfreeman422:feature/restructure",
+                    "ref": "feature/restructure",
+                    "sha": "485274713f35503c3c00447f40996aba0885771d",
+                    "user": {
+                        "login": "sfreeman422",
+                        "id": 16405652,
+                        "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                        "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/sfreeman422",
+                        "html_url": "https://github.com/sfreeman422",
+                        "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                        "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                        "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                        "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                        "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 78309244,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk3ODMwOTI0NA==",
+                        "name": "RaspAlarm",
+                        "full_name": "sfreeman422/RaspAlarm",
+                        "owner": {
+                            "login": "sfreeman422",
+                            "id": 16405652,
+                            "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                            "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/sfreeman422",
+                            "html_url": "https://github.com/sfreeman422",
+                            "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                            "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                            "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                            "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                            "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "private": false,
+                        "html_url": "https://github.com/sfreeman422/RaspAlarm",
+                        "description": "A Raspberry Pi Controlled Alarm Clock",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/sfreeman422/RaspAlarm",
+                        "forks_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/forks",
+                        "keys_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/teams",
+                        "hooks_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/hooks",
+                        "issue_events_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/events",
+                        "assignees_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/tags",
+                        "blobs_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/languages",
+                        "stargazers_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/stargazers",
+                        "contributors_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/contributors",
+                        "subscribers_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/subscribers",
+                        "subscription_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/subscription",
+                        "commits_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/merges",
+                        "archive_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/downloads",
+                        "issues_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/deployments",
+                        "created_at": "2017-01-07T23:13:31Z",
+                        "updated_at": "2018-08-03T22:41:53Z",
+                        "pushed_at": "2018-08-04T20:26:18Z",
+                        "git_url": "git://github.com/sfreeman422/RaspAlarm.git",
+                        "ssh_url": "git@github.com:sfreeman422/RaspAlarm.git",
+                        "clone_url": "https://github.com/sfreeman422/RaspAlarm.git",
+                        "svn_url": "https://github.com/sfreeman422/RaspAlarm",
+                        "homepage": "",
+                        "size": 33749,
+                        "stargazers_count": 9,
+                        "watchers_count": 9,
+                        "language": "CSS",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "forks_count": 5,
+                        "mirror_url": null,
+                        "archived": false,
+                        "open_issues_count": 0,
+                        "license": null,
+                        "forks": 5,
+                        "open_issues": 0,
+                        "watchers": 9,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "sfreeman422:develop",
+                    "ref": "develop",
+                    "sha": "ade5216cd268f04197dcc0a48d6f9c8a16dac068",
+                    "user": {
+                        "login": "sfreeman422",
+                        "id": 16405652,
+                        "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                        "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/sfreeman422",
+                        "html_url": "https://github.com/sfreeman422",
+                        "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                        "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                        "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                        "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                        "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 78309244,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk3ODMwOTI0NA==",
+                        "name": "RaspAlarm",
+                        "full_name": "sfreeman422/RaspAlarm",
+                        "owner": {
+                            "login": "sfreeman422",
+                            "id": 16405652,
+                            "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                            "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/sfreeman422",
+                            "html_url": "https://github.com/sfreeman422",
+                            "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                            "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                            "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                            "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                            "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "private": false,
+                        "html_url": "https://github.com/sfreeman422/RaspAlarm",
+                        "description": "A Raspberry Pi Controlled Alarm Clock",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/sfreeman422/RaspAlarm",
+                        "forks_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/forks",
+                        "keys_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/teams",
+                        "hooks_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/hooks",
+                        "issue_events_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/events",
+                        "assignees_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/tags",
+                        "blobs_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/languages",
+                        "stargazers_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/stargazers",
+                        "contributors_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/contributors",
+                        "subscribers_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/subscribers",
+                        "subscription_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/subscription",
+                        "commits_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/merges",
+                        "archive_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/downloads",
+                        "issues_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/deployments",
+                        "created_at": "2017-01-07T23:13:31Z",
+                        "updated_at": "2018-08-03T22:41:53Z",
+                        "pushed_at": "2018-08-04T20:26:18Z",
+                        "git_url": "git://github.com/sfreeman422/RaspAlarm.git",
+                        "ssh_url": "git@github.com:sfreeman422/RaspAlarm.git",
+                        "clone_url": "https://github.com/sfreeman422/RaspAlarm.git",
+                        "svn_url": "https://github.com/sfreeman422/RaspAlarm",
+                        "homepage": "",
+                        "size": 33749,
+                        "stargazers_count": 9,
+                        "watchers_count": 9,
+                        "language": "CSS",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "forks_count": 5,
+                        "mirror_url": null,
+                        "archived": false,
+                        "open_issues_count": 0,
+                        "license": null,
+                        "forks": 5,
+                        "open_issues": 0,
+                        "watchers": 9,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/18"
+                    },
+                    "html": {
+                        "href": "https://github.com/sfreeman422/RaspAlarm/pull/18"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/18"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/18/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/18/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/18/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/statuses/485274713f35503c3c00447f40996aba0885771d"
+                    }
+                },
+                "author_association": "OWNER",
+                "merged": true,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": {
+                    "login": "sfreeman422",
+                    "id": 16405652,
+                    "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                    "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sfreeman422",
+                    "html_url": "https://github.com/sfreeman422",
+                    "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                    "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                    "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                    "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 1,
+                "additions": 12,
+                "deletions": 8,
+                "changed_files": 10
+            }
+        },
+        "public": true,
+        "created_at": "2018-08-04T20:26:18Z"
+    },
+    {
+        "id": "8066801994",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 16405652,
+            "login": "sfreeman422",
+            "display_login": "sfreeman422",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sfreeman422",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16405652?"
+        },
+        "repo": {
+            "id": 78309244,
+            "name": "sfreeman422/RaspAlarm",
+            "url": "https://api.github.com/repos/sfreeman422/RaspAlarm"
+        },
+        "payload": {
+            "action": "opened",
+            "number": 18,
+            "pull_request": {
+                "url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/18",
+                "id": 206208535,
+                "node_id": "MDExOlB1bGxSZXF1ZXN0MjA2MjA4NTM1",
+                "html_url": "https://github.com/sfreeman422/RaspAlarm/pull/18",
+                "diff_url": "https://github.com/sfreeman422/RaspAlarm/pull/18.diff",
+                "patch_url": "https://github.com/sfreeman422/RaspAlarm/pull/18.patch",
+                "issue_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/18",
+                "number": 18,
+                "state": "open",
+                "locked": false,
+                "title": "Restructured folder and resolved an unmounting interval issue",
+                "user": {
+                    "login": "sfreeman422",
+                    "id": 16405652,
+                    "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                    "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sfreeman422",
+                    "html_url": "https://github.com/sfreeman422",
+                    "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                    "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                    "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                    "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "",
+                "created_at": "2018-08-04T20:26:13Z",
+                "updated_at": "2018-08-04T20:26:13Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": null,
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "commits_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/18/commits",
+                "review_comments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/18/comments",
+                "review_comment_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/18/comments",
+                "statuses_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/statuses/485274713f35503c3c00447f40996aba0885771d",
+                "head": {
+                    "label": "sfreeman422:feature/restructure",
+                    "ref": "feature/restructure",
+                    "sha": "485274713f35503c3c00447f40996aba0885771d",
+                    "user": {
+                        "login": "sfreeman422",
+                        "id": 16405652,
+                        "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                        "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/sfreeman422",
+                        "html_url": "https://github.com/sfreeman422",
+                        "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                        "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                        "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                        "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                        "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 78309244,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk3ODMwOTI0NA==",
+                        "name": "RaspAlarm",
+                        "full_name": "sfreeman422/RaspAlarm",
+                        "owner": {
+                            "login": "sfreeman422",
+                            "id": 16405652,
+                            "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                            "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/sfreeman422",
+                            "html_url": "https://github.com/sfreeman422",
+                            "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                            "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                            "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                            "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                            "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "private": false,
+                        "html_url": "https://github.com/sfreeman422/RaspAlarm",
+                        "description": "A Raspberry Pi Controlled Alarm Clock",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/sfreeman422/RaspAlarm",
+                        "forks_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/forks",
+                        "keys_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/teams",
+                        "hooks_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/hooks",
+                        "issue_events_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/events",
+                        "assignees_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/tags",
+                        "blobs_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/languages",
+                        "stargazers_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/stargazers",
+                        "contributors_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/contributors",
+                        "subscribers_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/subscribers",
+                        "subscription_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/subscription",
+                        "commits_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/merges",
+                        "archive_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/downloads",
+                        "issues_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/deployments",
+                        "created_at": "2017-01-07T23:13:31Z",
+                        "updated_at": "2018-08-03T22:41:53Z",
+                        "pushed_at": "2018-08-04T20:25:41Z",
+                        "git_url": "git://github.com/sfreeman422/RaspAlarm.git",
+                        "ssh_url": "git@github.com:sfreeman422/RaspAlarm.git",
+                        "clone_url": "https://github.com/sfreeman422/RaspAlarm.git",
+                        "svn_url": "https://github.com/sfreeman422/RaspAlarm",
+                        "homepage": "",
+                        "size": 33749,
+                        "stargazers_count": 9,
+                        "watchers_count": 9,
+                        "language": "CSS",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "forks_count": 5,
+                        "mirror_url": null,
+                        "archived": false,
+                        "open_issues_count": 1,
+                        "license": null,
+                        "forks": 5,
+                        "open_issues": 1,
+                        "watchers": 9,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "sfreeman422:develop",
+                    "ref": "develop",
+                    "sha": "ade5216cd268f04197dcc0a48d6f9c8a16dac068",
+                    "user": {
+                        "login": "sfreeman422",
+                        "id": 16405652,
+                        "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                        "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/sfreeman422",
+                        "html_url": "https://github.com/sfreeman422",
+                        "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                        "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                        "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                        "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                        "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 78309244,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk3ODMwOTI0NA==",
+                        "name": "RaspAlarm",
+                        "full_name": "sfreeman422/RaspAlarm",
+                        "owner": {
+                            "login": "sfreeman422",
+                            "id": 16405652,
+                            "node_id": "MDQ6VXNlcjE2NDA1NjUy",
+                            "avatar_url": "https://avatars3.githubusercontent.com/u/16405652?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/sfreeman422",
+                            "html_url": "https://github.com/sfreeman422",
+                            "followers_url": "https://api.github.com/users/sfreeman422/followers",
+                            "following_url": "https://api.github.com/users/sfreeman422/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/sfreeman422/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/sfreeman422/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/sfreeman422/subscriptions",
+                            "organizations_url": "https://api.github.com/users/sfreeman422/orgs",
+                            "repos_url": "https://api.github.com/users/sfreeman422/repos",
+                            "events_url": "https://api.github.com/users/sfreeman422/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/sfreeman422/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "private": false,
+                        "html_url": "https://github.com/sfreeman422/RaspAlarm",
+                        "description": "A Raspberry Pi Controlled Alarm Clock",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/sfreeman422/RaspAlarm",
+                        "forks_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/forks",
+                        "keys_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/teams",
+                        "hooks_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/hooks",
+                        "issue_events_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/events",
+                        "assignees_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/tags",
+                        "blobs_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/languages",
+                        "stargazers_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/stargazers",
+                        "contributors_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/contributors",
+                        "subscribers_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/subscribers",
+                        "subscription_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/subscription",
+                        "commits_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/merges",
+                        "archive_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/downloads",
+                        "issues_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/sfreeman422/RaspAlarm/deployments",
+                        "created_at": "2017-01-07T23:13:31Z",
+                        "updated_at": "2018-08-03T22:41:53Z",
+                        "pushed_at": "2018-08-04T20:25:41Z",
+                        "git_url": "git://github.com/sfreeman422/RaspAlarm.git",
+                        "ssh_url": "git@github.com:sfreeman422/RaspAlarm.git",
+                        "clone_url": "https://github.com/sfreeman422/RaspAlarm.git",
+                        "svn_url": "https://github.com/sfreeman422/RaspAlarm",
+                        "homepage": "",
+                        "size": 33749,
+                        "stargazers_count": 9,
+                        "watchers_count": 9,
+                        "language": "CSS",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "forks_count": 5,
+                        "mirror_url": null,
+                        "archived": false,
+                        "open_issues_count": 1,
+                        "license": null,
+                        "forks": 5,
+                        "open_issues": 1,
+                        "watchers": 9,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/18"
+                    },
+                    "html": {
+                        "href": "https://github.com/sfreeman422/RaspAlarm/pull/18"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/18"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/issues/18/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/18/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/pulls/18/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/sfreeman422/RaspAlarm/statuses/485274713f35503c3c00447f40996aba0885771d"
+                    }
+                },
+                "author_association": "OWNER",
+                "merged": false,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": null,
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 1,
+                "additions": 12,
+                "deletions": 8,
+                "changed_files": 10
+            }
+        },
+        "public": true,
+        "created_at": "2018-08-04T20:26:13Z"
+    }
+]

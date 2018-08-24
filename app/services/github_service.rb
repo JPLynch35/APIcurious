@@ -19,7 +19,7 @@ class GithubService
     @organization_data ||= get_json('/user/orgs')
   end
 
-  def all_repos
+  def call_repos
     @repos ||= get_json('/user/repos?sort=created&per_page=100')
   end
 

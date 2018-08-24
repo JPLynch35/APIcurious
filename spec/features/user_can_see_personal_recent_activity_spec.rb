@@ -12,6 +12,27 @@ describe 'a logged in user ' do
                         )
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
 
+      json_response_user = File.open('./spec/fixtures/user.json')
+      stub_request(:get, 'https://api.github.com/user').to_return(status:200, body: json_response_user)
+
+      json_response_starred_repos = File.open('./spec/fixtures/starred_repos.json')
+      stub_request(:get, 'https://api.github.com/user/starred').to_return(status:200, body: json_response_starred_repos)
+
+      json_response_followers = File.open('./spec/fixtures/followers.json')
+      stub_request(:get, 'https://api.github.com/user/followers').to_return(status:200, body: json_response_followers)
+
+      json_response_following = File.open('./spec/fixtures/following.json')
+      stub_request(:get, 'https://api.github.com/user/following').to_return(status:200, body: json_response_following)
+
+      json_response_organizations = File.open('./spec/fixtures/organizations.json')
+      stub_request(:get, 'https://api.github.com/user/orgs').to_return(status:200, body: json_response_organizations)
+
+      json_response_repos = File.open('./spec/fixtures/repos.json')
+      stub_request(:get, 'https://api.github.com/user/repos?per_page=100&sort=created').to_return(status:200, body: json_response_repos)
+
+      json_response_personal_activities = File.open('./spec/fixtures/personal_activities.json')
+      stub_request(:get, 'https://api.github.com/users/JPLynch35/events').to_return(status:200, body: json_response_personal_activities)
+
       visit user_path(user)
 
       expect(page).to have_link('Personal: Recent Activity')
@@ -33,6 +54,12 @@ describe 'a logged in user ' do
                         )
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
 
+      json_response_user = File.open('./spec/fixtures/user.json')
+      stub_request(:get, 'https://api.github.com/user').to_return(status:200, body: json_response_user)
+
+      json_response_personal_activities = File.open('./spec/fixtures/personal_activities.json')
+      stub_request(:get, 'https://api.github.com/users/JPLynch35/events').to_return(status:200, body: json_response_personal_activities)
+
       visit user_recent_activity_path(user)
 
       expect(page).to have_content('Repo: JPLynch35/APIcurious')
@@ -48,6 +75,27 @@ describe 'a logged in user ' do
                           token: ENV['JP_TEST_TOKEN']
                         )
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
+
+      json_response_user = File.open('./spec/fixtures/user.json')
+      stub_request(:get, 'https://api.github.com/user').to_return(status:200, body: json_response_user)
+
+      json_response_starred_repos = File.open('./spec/fixtures/starred_repos.json')
+      stub_request(:get, 'https://api.github.com/user/starred').to_return(status:200, body: json_response_starred_repos)
+
+      json_response_followers = File.open('./spec/fixtures/followers.json')
+      stub_request(:get, 'https://api.github.com/user/followers').to_return(status:200, body: json_response_followers)
+
+      json_response_following = File.open('./spec/fixtures/following.json')
+      stub_request(:get, 'https://api.github.com/user/following').to_return(status:200, body: json_response_following)
+
+      json_response_organizations = File.open('./spec/fixtures/organizations.json')
+      stub_request(:get, 'https://api.github.com/user/orgs').to_return(status:200, body: json_response_organizations)
+
+      json_response_repos = File.open('./spec/fixtures/repos.json')
+      stub_request(:get, 'https://api.github.com/user/repos?per_page=100&sort=created').to_return(status:200, body: json_response_repos)
+
+      json_response_personal_activities = File.open('./spec/fixtures/personal_activities.json')
+      stub_request(:get, 'https://api.github.com/users/JPLynch35/events').to_return(status:200, body: json_response_personal_activities)
 
       visit user_recent_activity_path(user)
       click_link 'Back'
