@@ -28,7 +28,7 @@ class ProfilePresenter
   end
 
   def repositories
-    @service.all_repos.map do |repo_data|
+    @service.call_repos.map do |repo_data|
       Repository.new(repo_data)
     end
   end

@@ -1,8 +1,17 @@
 require 'rails_helper'
 
 describe 'a user' do
-  describe 'visiting the splash page' do
-    it 'can log in with github oauth' do
+  describe 'visiting the user show page' do
+    it 'can log out and return to the root page' do
+      user = User.create(
+        provider: 'github',
+        uid: ENV['JP_UID'],
+        name: 'JP',
+        profile_pic: 'https://avatars0.githubusercontent.com/u/32905782?...',
+        token: ENV['JP_TEST_TOKEN']
+      )
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
+
       json_response_starred_repos = File.open('./spec/fixtures/starred_repos.json')
       stub_request(:get, 'https://api.github.com/user/starred').to_return(status:200, body: json_response_starred_repos)
 
@@ -19,14 +28,11 @@ describe 'a user' do
       stub_request(:get, 'https://api.github.com/user/repos?per_page=100&sort=created').to_return(status:200, body: json_response_repos)
 
       stub_omni_auth
-      visit root_path
+      visit user_path(user)
 
-      expect(page).to have_content('Welcome to MinimalHub!')
+      click_link 'Log Out'
 
-      click_link 'Log In with GitHub'
-
-      expect(page).to have_content('Bobby')
-      expect(page).to have_content('Log Out')
+      expect(current_path).to eq(root_path)
     end
   end
 end
